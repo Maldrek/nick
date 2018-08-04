@@ -124,3 +124,20 @@ a:hover {
     max-width: 600%;
     margin-top: -225px;
 }
+
+#footer {
+    position: sticky;
+    text-align: center;
+    height: 100%;
+    background-color: white;
+    background: rgba(0,0,0,0.5);
+    color: rgba(218, 165, 32, 0.404);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#social2 {
+    margin-left: 30px;
+}
