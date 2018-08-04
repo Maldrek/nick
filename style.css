@@ -24,13 +24,10 @@ a {
     text-decoration: none;
     padding-left: 5px;
     padding-right: 5px;
-    /* border: 1px solid white; */
 }
 
 a:hover {
     text-decoration: none;
-    /* color: white;
-    background-color: rgba(107, 105, 105, 0.719); */
     color: goldenrod;
 }
 
