@@ -24,11 +24,13 @@ a {
     text-decoration: none;
     padding-left: 5px;
     padding-right: 5px;
+    text-shadow: 2px 2px black;
 }
 
 a:hover {
     text-decoration: none;
     color: goldenrod;
+    text-shadow: 1px 1px black;
 }
 
 
@@ -123,13 +125,18 @@ a:hover {
 }
 
 #shortAbout {
-    height: 300px;
+    height: 3000px;
     background-color: white;
     margin-top: -100px;
 }
 
 #name {
     padding: 20px;
+    text-shadow: 3px 3px black;
+}
+
+#profession {
+    text-shadow: 2px 2px black;
 }
 
 #footer {
