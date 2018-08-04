@@ -9,6 +9,7 @@ nav {
     height: 70px;
     width: 100%;
     background-color: rgba(0,0,0,0.5);
+    border-bottom: 1px solid white;
 }
 
 #navigation {
@@ -45,4 +46,72 @@ a:hover {
     height: 30px;
     width: 30px;
     border: 1px solid goldenrod;
+}
+
+.galIntro {
+    padding: 0px;
+}
+
+#intro {
+    background: linear-gradient(to right, rgba(0,0,0,1) 27%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 73%);
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+@-webkit-keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+  }
+
+#titles {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    bottom: 200px;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 300px;
+    border: 1px solid goldenrod;
+    padding-left: 20px;
+    padding-right: 20px;
+    animation: fadeInDown 5s;
+}
+
+#kiss {
+    z-index: -1;
+    height: 80%;
+    max-width: 250%;
+    margin-top: -150px;
 }
