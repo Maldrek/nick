@@ -132,11 +132,6 @@ a:hover {
     margin-top: -100px;
     text-align: center;
     /* Border styling code from w3Schools: https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_border-image */
-    border: 25px solid transparent;
-    padding: 15px;
-    -webkit-border-image: url('./images/mochaGrunge.png') 30% round; /* Safari 3.1-5 */
-    -o-border-image: url('./images/mochaGrunge.png') 30% round; /* Opera 11-12.1 */
-    border-image: url('./images/mochaGrunge.png') 30% round;
 }
 
 #quadThreat {
@@ -152,8 +147,8 @@ a:hover {
     flex-flow: column wrap;
     align-content: center;
     justify-content: center;
-    margin: 1px;
     margin-top: 10px;
+    margin-bottom: 20px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
