@@ -38,7 +38,6 @@ a:hover {
 }
 
 .navbar-brand:hover {
-    background-color: black;
     border: none;
 }
 
@@ -55,6 +54,10 @@ a:hover {
     height: 30px;
     width: 30px;
     border: 1px solid goldenrod;
+}
+
+#logo:hover {
+    background-color: none;
 }
 
 .galIntro {
