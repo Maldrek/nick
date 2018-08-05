@@ -125,6 +125,36 @@ a:hover {
     margin-top: -50px;
 }
 
+#media {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#batb {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carItem {
+    height: 100%;
+    max-width: 1000px;
+    border: 1px solid goldenrod;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+carImage {
+    height: 10%;
+}
+
 #footer {
     position: sticky;
     text-align: center;
