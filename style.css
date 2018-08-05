@@ -64,7 +64,7 @@ a:hover {
 
 #intro {
     background: linear-gradient(to right, rgba(0,0,0,1) 15%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 83%);
-    height: 860px;
+    height: 900px;
     position: relative;
     text-align: center;
     display: flex;
@@ -114,24 +114,28 @@ a:hover {
     bottom: 200px;
     background-color: rgba(0,0,0,0.5);
     margin-top: 300px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     border: 1px solid goldenrod;
     padding-left: 20px;
     padding-right: 20px;
     animation: fadeInDown 5s;
 }
 
+#profession {
+    margin-bottom: 30px;
+}
+
 #violin {
     z-index: -1;
     height: 1000px;
     max-width: 600%;
-    margin-top: -160px;
+    margin-top: -170px;
 }
 
 #shortAbout {
     height: 100%;
     background-color: white;
-    margin-top: -100px;
+    margin-top: -10px;
     text-align: center;
     /* Border styling code from w3Schools: https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_border-image */
 }
