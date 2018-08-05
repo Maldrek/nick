@@ -61,7 +61,7 @@ a:hover {
 }
 
 #intro {
-    background: linear-gradient(to right, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 90%);
+    background: linear-gradient(to right, rgba(0,0,0,1) 8%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 92%);
     height: 800px;
     position: relative;
     text-align: center;
