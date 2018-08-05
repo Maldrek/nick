@@ -63,7 +63,7 @@ a:hover {
 }
 
 #intro {
-    background: linear-gradient(to right, rgba(0,0,0,1) 15%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 83%);
+    background: linear-gradient(to right, rgba(0,0,0,1) 15%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 87%);
     height: 900px;
     position: relative;
     text-align: center;
@@ -127,9 +127,9 @@ a:hover {
 
 #violin {
     z-index: -1;
-    height: 1000px;
+    height: 1150px;
     max-width: 600%;
-    margin-top: -170px;
+    margin-top: -190px;
 }
 
 #shortAbout {
