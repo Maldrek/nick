@@ -49,7 +49,8 @@ a:hover {
 }
 
 #dropdown {
-    border: 1px solid white;
+    border: 1px solid goldenrod;
+    border-radius: 0%;
 }
 
 #logo {
