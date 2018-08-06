@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
         crossorigin="anonymous">
-    <link rel='stylesheet' href='contact.css'>
+    <link rel='stylesheet' href='./contact.css'>
 
     <title>Contact</title>
 </head>
@@ -57,7 +57,7 @@
 
     <div id='contact'>
         <h1 id='conHeader'>Get in touch</h1>
-        <form id='contactForm' method="post" name="contact" action="form.php">
+        <form id='contactForm'>
             <div class="form-row">
                 <div class="col-5">
                     <label for="firstName">First*</label>
@@ -87,7 +87,7 @@
                 </div>
             </div>
             <div class='form-row'>
-                <button class='btn btn-large' id='submit' data-toggle="modal" data-target="#contactModal" type='submit' value='Send Form'>Submit</button>
+                <button class='btn btn-large' id='submit' data-toggle="modal" data-target="#contactModal">Submit</button>
             </div>
         </form>
     </div>
