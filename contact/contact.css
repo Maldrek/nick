@@ -118,11 +118,53 @@ a:hover {
     animation: fadeInDown 5s;
 }
 
-#kiss {
+#stool {
     z-index: -1;
     height: 1250px;
     max-width: 600%;
     margin-top: -225px;
+}
+
+#contact {
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#conHeader {
+    margin-top: 20px;
+}
+
+form {
+    min-width: 75%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border: 1px solid goldenrod;
+    padding: 20px;
+}
+
+.form-row {
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    border-radius: 0%;
+    background-color: black;
+    border: 1px solid goldenrod;
+    color: white;
+}
+
+.modal-content {
+    margin-top: 150px;
+    min-width: 50%;
+    border-radius: 0%;
+    border: 2px solid goldenrod;
 }
 
 #footer {

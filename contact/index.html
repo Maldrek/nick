@@ -51,7 +51,58 @@
             <div id='titles' class='shadow grow'>
                 <h1 id='name'>Contact</h1>
             </div>
-            <img id='kiss' src='../images/senior/stoolbw.jpg'>
+            <img id='stool' src='../images/senior/stoolbw.jpg'>
+        </div>
+    </div>
+
+    <div id='contact'>
+        <h1 id='conHeader'>Get in touch</h1>
+        <form id='contactForm'>
+            <div class="form-row">
+                <div class="col-5">
+                    <label for="firstName">First*</label>
+                    <input id='firstName' type="text" class="form-control" placeholder="first name">
+                </div>
+                <div class="col-5">
+                    <label for="lastName">Last</label>
+                    <input id='lastName' type="text" class="form-control" placeholder="last name">
+                </div>
+            </div>
+            <div class='form-row'>
+                <div class="col-10">
+                    <label for="email">Email*</label>
+                    <input id='email' type="text" class="form-control" placeholder="user@email.com">
+                </div>
+            </div>
+            <div class='form-row'>
+                <div class="col-10">
+                    <label for="subject">Subject</label>
+                    <input id='subject' type="text" class="form-control" placeholder="subject">
+                </div>
+            </div>
+            <div class='form-row'>
+                <div class="form-group col-10">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder='message'></textarea>
+                </div>
+            </div>
+            <div class='form-row'>
+                <button class='btn btn-large' id='submit' data-toggle="modal" data-target="#contactModal">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="title" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="title"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id='body'></div>
+            </div>
         </div>
     </div>
 
@@ -73,7 +124,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
         crossorigin="anonymous"></script>
-    <script rel='stylesheet' type='text/javascript' href='contact.js'></script>
+    <script rel='stylesheet' type='text/javascript' src='contact.js'></script>
 
 </body>
 
