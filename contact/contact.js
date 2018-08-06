@@ -14,7 +14,7 @@ $(document).ready(function () {
         if (firstName === '' || email === '') {
             $('#title').text('Your Message Has Not Been Submitted.')
             $('#body').text('Please fill in the required fields.');
-        } else if(!email.includes('@' & '.')) {
+        } else if(!email.includes('@' && '.')) {
             $('#email').val('')
             $('#title').text('Invalid email address');
             $('#body').text('Please make sure your email address is correct and re-submit');
