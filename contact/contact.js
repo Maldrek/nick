@@ -14,6 +14,10 @@ $(document).ready(function () {
         if (firstName === '' || email === '') {
             $('#title').text('Your Message Has Not Been Submitted.')
             $('#body').text('Please fill in the required fields.');
+        } else if(!email.includes('@' & '.')) {
+            $('#email').val('')
+            $('#title').text('Invalid email address');
+            $('#body').text('Please make sure your email address is correct and re-submit');
         } else if(message === '') {
             $('#firstName').val('')
             $('#lastName').val('')
@@ -21,7 +25,7 @@ $(document).ready(function () {
             $('#subject').val('')
             $('#message').val('')
             $("#title").text('Did you forget something?');
-            $("#body").text('I noticed there was no message attached! I will do my best to reach out on my own, but if you forgot please feel free to re-send it!')
+            $("#body").text('I noticed there was no message attached! I will do my best to reach out on my own, but if you forgot please feel free to re-send!')
         } else {
             $('#firstName').val('')
             $('#lastName').val('')
