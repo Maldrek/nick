@@ -57,37 +57,37 @@
 
     <div id='contact'>
         <h1 id='conHeader'>Get in touch</h1>
-        <form id='contactForm'>
+        <form id='contactForm' method="post" name="contact" action="form.php">
             <div class="form-row">
                 <div class="col-5">
                     <label for="firstName">First*</label>
-                    <input id='firstName' type="text" class="form-control" placeholder="first name">
+                    <input id='firstName' type="text" class="form-control" placeholder="first name" name='first'>
                 </div>
                 <div class="col-5">
                     <label for="lastName">Last</label>
-                    <input id='lastName' type="text" class="form-control" placeholder="last name">
+                    <input id='lastName' type="text" class="form-control" placeholder="last name" name='last'>
                 </div>
             </div>
             <div class='form-row'>
                 <div class="col-10">
                     <label for="email">Email*</label>
-                    <input id='email' type="text" class="form-control" placeholder="user@email.com">
+                    <input id='email' type="text" class="form-control" placeholder="user@email.com" name='email'>
                 </div>
             </div>
             <div class='form-row'>
                 <div class="col-10">
                     <label for="subject">Subject</label>
-                    <input id='subject' type="text" class="form-control" placeholder="subject">
+                    <input id='subject' type="text" class="form-control" placeholder="subject" name='subject'>
                 </div>
             </div>
             <div class='form-row'>
                 <div class="form-group col-10">
                     <label for="message">Message</label>
-                    <textarea class="form-control" id="message" rows="5" placeholder='message'></textarea>
+                    <textarea class="form-control" id="message" rows="5" placeholder='message' name='message'></textarea>
                 </div>
             </div>
             <div class='form-row'>
-                <button class='btn btn-large' id='submit' data-toggle="modal" data-target="#contactModal">Submit</button>
+                <button class='btn btn-large' id='submit' data-toggle="modal" data-target="#contactModal" type='submit' value='Send Form'>Submit</button>
             </div>
         </form>
     </div>
