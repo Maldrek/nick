@@ -25,7 +25,7 @@ a {
     text-decoration: none;
     padding-left: 5px;
     padding-right: 5px;
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px black;
 }
 
 a:hover {
